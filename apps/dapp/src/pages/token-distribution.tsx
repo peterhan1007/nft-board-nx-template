@@ -66,16 +66,17 @@ const TokenDistribution = () => {
           alt="HarfSquare"
         />
         <img
-          className="absolute left-[1592px] top-[750px]"
+          className="absolute right-[133px] top-[750px]"
           src="/assets/images/triangle.png"
           alt="Triangle"
         />
       </div>
       <div>
         <div className="flex mt-40 justify-evenly px-80">
-          {progressList1.map((progress) => {
+          {progressList1.map((progress, index) => {
             return (
               <RadialProgress
+                key={index}
                 percentage={progress.percentage}
                 title={progress.title}
                 price={progress.price}
@@ -84,9 +85,10 @@ const TokenDistribution = () => {
           })}
         </div>
         <div className="flex mt-80 justify-evenly px-80">
-          {progressList2.map((progress) => {
+          {progressList2.map((progress, index) => {
             return (
               <RadialProgress
+                key={index}
                 percentage={progress.percentage}
                 title={progress.title}
                 price={progress.price}
@@ -95,7 +97,7 @@ const TokenDistribution = () => {
           })}
         </div>
       </div>
-      <div className="token-bg border-2 mt-40 w-[1600px] mx-auto">
+      <div className="token-bg border-2 mt-40 xl:w-[1600px] sm:w-full mx-auto">
         <div className="flex justify-evenly">
           <div className="relative">
             <span className="absolute left-24 top-56 leading-[100px] text-7xl font-Drone not-italic font-bold flex items-center text-[#FBC625]">
@@ -120,9 +122,10 @@ const TokenDistribution = () => {
                 WINNINGS
               </div>
             </div>
-            {inputList.map((input) => {
+            {inputList.map((input, index) => {
               return (
                 <Input
+                  key={index}
                   id={input.id}
                   player={input.player}
                   winnings={input.winnings}

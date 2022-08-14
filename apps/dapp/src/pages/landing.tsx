@@ -4,8 +4,7 @@ import { ReactComponent as ArrowDown } from '../assets/svg/arrow-down.svg';
 const LandingPage = () => {
   return (
     <>
-      <LandingBg />
-      <div>
+      <div className="landing-bg w-full h-[1080px]">
         <span className="absolute w-[590px] h-56 left-40 top-64 font-bold font-Drone text-4.5xl text-[#FBC625]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et

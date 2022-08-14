@@ -5,7 +5,7 @@ import { ReactComponent as ArrowDown } from '../assets/svg/arrow-down.svg';
 
 const Navigation = () => {
   return (
-    <nav className="bg-[#17161A]/[.7] fixed w-full h-20">
+    <nav className="bg-[#17161A]/[.7] fixed sm:w-full h-20">
       <div className="max-w-[106rem] mx-auto xl:px-40">
         <div className="relative flex items-center justify-between h-20">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">

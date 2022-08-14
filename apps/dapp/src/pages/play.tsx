@@ -21,7 +21,7 @@ const Play = () => {
         </div>
       </div>
       <div className="grid grid-rows-3 grid-flow-col text-[black] min-height">
-        <div className="flex items-center bg-[#FBC625] ">
+        <div className="flex items-center bg-[#FBC625] md:py-3">
           <div className="flex items-center justify-center font-drone text-4xl text-[#17161A] w-[10rem]">
             1
           </div>
@@ -32,7 +32,7 @@ const Play = () => {
           </div>
         </div>
 
-        <div className="flex bg-[#3D3B44] items-center">
+        <div className="flex bg-[#3D3B44] items-center sm:py-3">
           <div className="flex items-center justify-center font-drone text-4xl text-[#17161A] w-[10rem]">
             2
           </div>
@@ -43,7 +43,7 @@ const Play = () => {
           </div>
         </div>
 
-        <div className="flex bg-[#2A282F] items-center">
+        <div className="flex bg-[#2A282F] items-center sm:py-3">
           <div className="flex items-center justify-center font-drone text-4xl text-[#17161A] w-[10rem]">
             3
           </div>

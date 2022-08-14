@@ -23,7 +23,7 @@ const Divider = () => {
       <div className="flex absolute top-1/2 -translate-y-1/2 space-x-20 items-center px-40">
         {cards.map((card: CARD, index: number) => {
           return (
-            <CharacterCard imgUrl={card.imgUrl} name={card.name} key={index} />
+            <CharacterCard key={index} imgUrl={card.imgUrl} name={card.name} />
           );
         })}
       </div>

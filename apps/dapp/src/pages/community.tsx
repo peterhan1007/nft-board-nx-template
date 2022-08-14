@@ -35,9 +35,10 @@ const CommunityList = () => {
         <div className="flex flex-col items-center">
           <SubTitle title="JOIN OUR COMMUNITY" />
           <div className="grid grid-cols-2 lg:grid-cols-4 w-full pb-[70px]">
-            {communities.map((community) => {
+            {communities.map((community, index) => {
               return (
                 <Community
+                  key={index}
                   Icon={community.Icon}
                   title={community.title}
                   name={community.name}

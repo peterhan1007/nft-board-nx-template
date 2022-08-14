@@ -19,11 +19,10 @@ module.exports = {
   plugins: [require('daisyui')],
   theme: {
     screens: {
-      sm: '768px',
-      md: '1024px',
-      lg: '1280px',
-      xl: '1440px',
-      '2xl': '1920px',
+      sm: '1024px',
+      md: '1280px',
+      lg: '1440px',
+      xl: '1920px',
     },
     extend: {
       fontSize: {
