@@ -9,7 +9,7 @@ interface PROPS {
 
 const RadialProgress = ({ percentage, title, price }: PROPS) => {
   return (
-    <div style={{ width: 200, height: 200 }}>
+    <div style={{ width: '200px', height: '200px', marginBottom: '200px' }}>
       <CircularProgressbar
         value={percentage}
         text={`${percentage}%`}

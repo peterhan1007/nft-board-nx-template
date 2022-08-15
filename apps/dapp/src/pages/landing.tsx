@@ -5,18 +5,18 @@ const LandingPage = () => {
   return (
     <>
       <div className="landing-bg w-full h-[1080px]">
-        <span className="absolute w-[590px] h-56 left-40 top-64 font-bold font-Drone text-4.5xl text-[#FBC625]">
+        <div className=" ml-40 w-[590px] pt-[258px] tracking-[2px] font-bold font-Drone text-4.5xl text-[#FBC625]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et
-        </span>
-        <span className="absolute w-[590px] h-[60px] left-40 top-[522px] text-white font-Inter font-medium not-italic text-sm text-justify">
+        </div>
+        <div className="w-[590px] ml-40 mt-12 text-white font-Inter font-medium not-italic text-sm text-justify">
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
           dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
           proident, sunt in culpa qui officia deserunt mollit anim id est
           laborum.
-        </span>
-        <div className="absolute w-[576px] h-[60px] left-40 top-[622px] gap-7 flex">
-          <div className="">
+        </div>
+        <div className="gap-9 ml-40 mt-12 flex">
+          <div>
             <p className="text-white text-xl font-Drone font-bold not-italic">
               $999.000
             </p>
@@ -49,7 +49,7 @@ const LandingPage = () => {
             </p>
           </div>
         </div>
-        <div className="absolute left-40 top-[762px] space-x-4">
+        <div className="space-x-4 ml-40 mt-24">
           <button className="py-5 px-16 text-white rounded border border-white border-solid button-color shadow-2xl font-Inter font-semibold text-base">
             PLAY GAME
           </button>
@@ -57,7 +57,7 @@ const LandingPage = () => {
             LEARN MORE
           </button>
         </div>
-        <div className="absolute left-[914px] top-[964px]">
+        <div className="text-center mt-36">
           <span className="font-Inter font-bold text-base text-white">
             Scroll down
           </span>
